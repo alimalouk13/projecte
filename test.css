@@ -1,0 +1,40 @@
+main{
+    text-align: center;
+}
+#cods{ 
+    margin-top: 7px;
+    width: 94%;
+    min-height: 200px;
+    border-radius: 20px;
+    border: 4px double blue;
+}
+#div2{
+ display: flex;
+ justify-content: space-evenly;
+}
+#div2 button{
+    width: 40%;
+    border-radius: 12px;
+    padding: 12px;
+    border: 0cap;
+    
+}
+#play{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+#remove{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+#title1{
+    border-bottom: 2px solid black;
+    margin: 8px 0px;
+    font-weight: bold;
+    padding: 10px;
+}
+#result{
+     max-width: 100% !important;  /* لعدم سماح للمستخدم ب تخريب منظر الصفحة متل تحميل صورة حجمها كبير */
+}
